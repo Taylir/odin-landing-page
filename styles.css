@@ -1,0 +1,45 @@
+/* #1f2937 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+nav {
+  background-color: #1f2937;
+}
+
+nav .container {
+  margin: 0 auto;
+  padding: 16px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navList {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
