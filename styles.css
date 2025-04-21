@@ -115,3 +115,35 @@ nav .container {
   height: 100%;
   width: 100%;
 }
+
+.spacerWaves {
+  aspect-ratio: 9/1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./assets/layered-waves-haikei.svg");
+}
+
+#infoCards {
+  background-color: #105e82;
+  margin-top: -1px;
+}
+
+#infoCards .container .cardHolder {
+  display: flex;
+  gap: 16px;
+}
+
+.info_card {
+  height: 250px;
+  width: 250px;
+  flex: 1 1 auto;
+}
+
+.info_card img {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
