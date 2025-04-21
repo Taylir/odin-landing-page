@@ -120,13 +120,21 @@ nav .container {
   width: 100%;
 }
 
-.spacerWaves {
+.spacerWaves,
+.spacerWavesBottom {
   aspect-ratio: 9/1;
   width: 102vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.spacerWaves {
   background-image: url("./assets/layered-waves-haikei.svg");
+}
+
+.spacerWavesBottom {
+  background-image: url("./assets/bottom-layered-waves-haikei.svg");
 }
 
 #infoCards {
@@ -167,4 +175,29 @@ nav .container {
 
 .info_card p {
   flex: 1 0;
+}
+
+#testimonial {
+  height: 300px;
+  width: 100vw;
+  padding: 60px;
+  display: grid;
+  place-items: center;
+  background-image: url("./assets/Jellies.jpg");
+  background-size: cover;
+}
+
+.testimonialHolder {
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.testimonialHolder p {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
 }
