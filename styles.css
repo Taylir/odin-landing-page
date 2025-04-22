@@ -8,6 +8,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: #105e82;
 }
 
 ul {
@@ -122,18 +123,23 @@ nav .container {
 
 .spacerWaves,
 .spacerWavesBottom {
+  position: relative;
+  margin: 0 auto;
   aspect-ratio: 9/1;
-  width: 102vw;
+  width: 104vw;
+  height: 101%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .spacerWaves {
+  top: -2px;
   background-image: url("./assets/layered-waves-haikei.svg");
 }
 
 .spacerWavesBottom {
+  bottom: -2px;
   background-image: url("./assets/bottom-layered-waves-haikei.svg");
 }
 
